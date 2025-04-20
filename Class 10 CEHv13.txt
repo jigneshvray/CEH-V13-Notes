@@ -1,0 +1,242 @@
+Hacking Mobile Platforms
+IoT and OT Hacking
+Cloud Computing 
+
+
+=======
+WIFI Hacking 
+
+Kali Linux or Parrot OS 
+
+Pass the Hash Attacks 
+Collect Hash and Crack Hash 
+airmon-ng
+airodump-ng
+aircrack-ng
+
+Open Access
+Login Details 
+Shared Key Auth
+
+
+
+1. iwconfig - To Identify the Wireless Network
+Interface wlan0
+
+2.Convert Managed Mode -> Monitor Mode
+airmon-ng start wlan0
+wlan0mon
+
+3. We need to Capture the all Available Networks around you  
+airodump-ng wlan0mon
+basic service set identifier (BSSID) 
+extended service set identifier (ESSID).
+
+4. Select the WIFI Network Which you want to Crack PPSR (Network Traffic)
+airodump-ng -d <BSSID> -c1 -w wifihack.pcap wlan0mon
+airodump-ng -d <BSSID> -c1 -w wifihack wlan0mon
+
+5. Crack the Password
+aircrack-ng -a2 -b <BSSID> -w <Password list> <wifihack.pcap>
+
+how to protect wifi for hacking
+1. Static / MAC 
+2. Strong Enyp
+3. Strong Passowrd 
+===============================================
+Hacking Mobile Platforms
+
+Vishing  - Voice
+Smishing  - SMS 
+Social engineering 
+Malware 
+Vulnaerbility
+
+Telcom Service Provider 
+APPS
+
+Fake Apps
+Camfecting Attack - Camera / Microphone 
+Bluebugging Attack - Gain Control via Bluetooth 
+
+OS 
+
+Android 
+Linux Kerenl , DalvikVM
+Rooting - Root Access to Os
+
+
+IOS (COCOA)
+Jailbreaking - Root Access to OS 
+
+
+-- Create an APK
+1. Phonesploit Pro
+2. AndroRAT 
+3. Metasploit 
+
+1. Connect IP 
+2. Connect IP 
+
+How to Secure Mobile Platfrom 
+1. Updated Apps
+2. Install Aps from Trusted Sources 
+3. Never Connect to Unknown WIFI Networks 
+4. Wiping of Data 
+5. Diable the GeoTagging for Photos 
+6. Limit use of HDR
+https://www.ccleaner.com/recuva?srsltid=AfmBOooY9kYNNnAR6Eg5_mor9DOEO-EVQeXu9Po7OUsesW4vGrcwY7-t
+https://www.easeus.com/datarecoverywizardpro/?srsltid=AfmBOoqKmeOP2mvxdzNtNXnUOLHRzMODN8OD1G4wZL82AuF4W_B1xNap
+
+Qphotorec
+
+=========================================
+IOT and OT Attacks 
+
+Internet of Things / Internet of Everthing 
+
+Application
+Hardware 
+Internet / Network 
+
+IoT OS
+1. Windows 10 IOT
+2. Amazon FreeRTOS
+3. RIOT
+4. Ubuntu Core
+
+raspberry pi
+
+Network :-
+Zigbee - Wireless Communication 
+MQTT - Protocol
+Message Queing Telemetry Trasport
+Port - 1883 (Not Secure/Not Encrypted)
+Port - 8883 (Secure/Encryted)
+
+nmap -p 1833,8883 <IP>
+
+Use the Shodan search engine to collect the IP addresses with MQTT enabled. Perform a search using the MQTT port number. Which port number will you enter in the search field to obtain the desired result?
+
+MQTT 
+
+https://www.sipa.columbia.edu/sipa-education/picker-center-executive-education/case-collection/target-cyber-attack
+
+====
+Cloud Computing - On Demand Delivery
+
+IaaS - Infra as Servcie 
+Ex:- Ilabs, AWS EC2
+
+PaaS - Platfrom as a Service
+ex:- Salesforce , Azure , Google App Engine 
+
+SaaS - Software as a Service
+Ex:- Office Applications Sheets , DOCs
+
+SECaas - Secruity as A Service 
+
+-
+Cloud as Consumers
+Cloud as Attacker Vector  - Man in the Cloud MITC
+
+Lack of Visibility/ Arch.
+Pentest  
+
+Threats :-
+1. Data Security 
+2. Cloud Service Misuse - Hosting Malware's in Cloud
+3. Operational Security - RBAC 
+4. Supply Chain Attacks
+5. Network Security  
+
+lazy scanner
+AADinternals
+Trivy 
+
+=
+-- Tools Covered 
+1. TOR
+2. Psiphon
+3. TMAC
+4. Shodan - Many Information gathering tools
+5. TheHarvester
+6. Sherlock
+7. angry IP Scanner
+8. nmap
+9. Zenmap
+10. hping3
+11. snmp-check
+12. NetBIOS Enumeration
+13. AD Explorer
+14. Nessus
+15. Openvas
+16. Responder
+17. John the Ripper
+18. Loptcrack
+19. Metasploit
+20. armitage 
+21. wireshark
+23. HOIC
+24. LOIC
+25. Bettercap
+26. Etthercap-Graphical
+27. Hydra
+28. bettercap
+29. burpsuite
+30. sqlmap
+31. XSS 
+32. aircrack
+33. airmon
+34. androRAT.py
+35. TCPview
+36. Process Explorer
+37. Autoruns
+38. VirusTotal
+39. IBM X-Force 
+https://urlscan.io/
+URL - http://flowers-my.xyz/c2sock
+What is this URL, What This URL Belongs 
+https://any.run/malware-trends/
+
+
+
+https://libgen.is/search.php?&req=ceh&phrase=1&view=simple&column=def&sort=year&sortmode=DESC 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
