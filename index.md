@@ -11,6 +11,7 @@ Welcome to the CEH v13 training materials. Below you will find links to each cla
 - [Class 6 - CEHv13](./Class-6-CEHv13.md)
 - [Class 7 - CEHv13](./Class-7-CEHv13.md)
 - [Class 9 - CEHv13](./Class-9-CEHv13.md)
+- [Class 10 - CEHv13](./Class-9-CEHv13.md)
 
 ## Other Documents
 - [16 SQL Injection List](./16%20SQL%20Injection%20List.pdf)
